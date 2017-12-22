@@ -1,0 +1,5 @@
+・決済確認機能→BuyItemCompleteAction.java
+・カート画面から決済確認画面遷移機能→BuyItem1confirmAction.java
+・(宛先情報入力）購入情報入力画面遷移機能→InputDestAction.java
+・(宛先情報確認）購入情報確認機能→ComfrimDestAction.java
+・(宛先情報完了）購入情報完了機能→CompleteDestAction.java

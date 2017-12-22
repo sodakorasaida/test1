@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+
+	<package name="com.internousdev.yataberyouhin.action" extends="struts-default">
+
+<!-- IninHomeAction -->
+		<action name="InitHomeAction" class="com.internousdev.yataberyouhin.action.InitHomeAction" method="execute">
+			<result name="success">home.jsp</result>
+		</action>
+
+<!-- ProductInfoAction -->
+		<action name="ProductInfoAction"
+			class="com.internousdev.yataberyouhin.action.ProductInfoAction"
+			method="execute">
+			<result name="success">productList.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
+
+<!-- GoLoginAction -->
+		<action name="GoLoginAction"
+			class="com.internousdev.yataberyouhin.action.GoLoginAction"
+			method="execute">
+			<result name="success">login.jsp</result>
+		</action>
+
+<!-- LoginAction -->
+		<action name="LoginAction"
+		class="com.internousdev.yataberyouhin.action.LoginAction" method="execute">
+			<result name="success">home.jsp</result>
+			<result name="error">login.jsp</result>
+		</action>
+
+<!-- GoUserRegisterAction -->
+		<action name="GoUserRegisterAction"
+		class="com.internousdev.yataberyouhin.action.GoUserRegisterAction" method="execute">
+			<result name="success">userRegister.jsp</result>
+		</action>
+
+<!-- CheckUserInfoAction -->
+		<action name="CheckUserInfoAction"
+		class="com.internousdev.yataberyouhin.action.CheckUserInfoAction" method="execute">
+			<result name="success">userRegisterConfirm.jsp</result>
+			<result name="error">userRegister.jsp</result>
+		</action>
+
+<!-- RegisterUserInfoAction -->
+		<action name="RegisterUserInfoAction"
+		class="com.internousdev.yataberyouhin.action.RegisterUserInfoAction" method="execute">
+			<result name="success">userRegisterCompletion.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
+
+
+<!-- GoCartAction -->
+		<action name="GoCartAction"
+		class="com.internousdev.yataberyouhin.action.GoCartAction" method="execute">
+			<result name="success">cart.jsp</result>
+		</action>
+
+<!-- PurchaseInfoAction -->
+		<action name="PurchaseInfoAction"
+		class="com.internousdev.yataberyouhin.action.PurchaseInfoAction" method="execute">
+			<result name="success">settlement.jsp</result>
+			<result name="error">login.jsp</result>
+		</action>
+
+<!-- GoDestinationRegisterAction -->
+		<action name="GoDestinationRegisterAction"
+		class="com.internousdev.yataberyouhin.action.GoDestinationRegisterAction" method="execute">
+			<result name="success">destinationRegister.jsp</result>
+		</action>
+
+<!-- CheckDestinationInfoAction -->
+		<action name="CheckDestinationInfoAction"
+		class="com.internousdev.yataberyouhin.action.CheckDestinationInfoAction" method="execute">
+			<result name="success">destinationRegisterConfirm.jsp</result>
+			<result name="error">destinationRegister.jsp</result>
+		</action>
+
+<!-- RegisterDestinationInfoAction -->
+		<action name="RegisterDestinationInfoAction"
+		class="com.internousdev.yataberyouhin.action.RegisterDestinationInfoAction" method="execute">
+			<result name="success">destinationRegisterCompletion.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
+
+<!-- PurchaseCompletionAction -->
+		<action name="PurchaseCompletionAction"
+		class="com.internousdev.yataberyouhin.action.PurchaseCompletionAction" method="execute">
+			<result name="success">purchasecompletion.jsp</result>
+			<result name="error">cart.jsp</result>
+		</action>
+
+<!-- ProductInfoDetailAction -->
+		<action name="ProductInfoDetailAction"
+			class="com.internousdev.yataberyouhin.action.ProductInfoDetailAction"
+			method="execute">
+			<result name="success">productListDetail.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
+
+<!-- GoHomeAction -->
+		<action name="GoHomeAction"
+		class="com.internousdev.yataberyouhin.action.GoHomeAction" method="execute">
+			<result name="success">home.jsp</result>
+		</action>
+
+<!-- MyPage2Action -->
+		<action name="MyPage2Action"
+		class="com.internousdev.yataberyouhin.action.MyPage2Action" method="execute">
+			<result name="success">myPage.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
+
+<!-- PurchaseHistoryAction -->
+		<action name="PurchaseHistoryAction"
+		class="com.internousdev.yataberyouhin.action.PurchaseHistoryAction" method="execute">
+			<result name="success">purchaseHistory.jsp</result>
+		</action>
+
+<!-- PasswordResettingAction -->
+		<action name="PasswordResettingAction"
+		 class="com.internousdev.yataberyouhin.action.PasswordResettingAction" method="execute">
+		<result name="success">passwordResettingSuccess.jsp</result>
+		<result name="error">passwordResetting.jsp</result>
+		</action>
+
+<!-- PasswordResettingConfirmAction -->
+		<action name="PasswordResettingConfirmAction"
+		 class="com.internousdev.yataberyouhin.action.PasswordResettingConfirmAction" method="execute">
+		<result name="success">passwordResettingConfirm.jsp</result>
+		<result name="error">passwordResetting.jsp</result>
+		</action>
+
+<!-- PutProductIntoCartAction -->
+		<action name="PutProductIntoCartAction"
+			class="com.internousdev.yataberyouhin.action.PutProductIntoCartAction"
+			method="execute">
+			<result name="success">cart.jsp</result>
+		</action>
+
+<!-- ProductSearchAction -->
+		<action name="ProductSearchAction"
+			class="com.internousdev.yataberyouhin.action.ProductSearchAction"
+			method="execute">
+			<result name="success">productList.jsp</result>
+			<result name="error">index.jsp</result>
+		</action>
+
+<!-- LogoutAction -->
+		<action name="LogoutAction"
+			class="com.internousdev.yataberyouhin.action.LogoutAction"
+			method="execute">
+			<result name="success">login.jsp</result>
+		</action>
+
+
+<!-- ContactAction -->
+		<action name="ContactAction"
+			class="com.internousdev.yataberyouhin.action.ContactAction"
+			method="execute">
+			<result name="success">contact.jsp</result>
+		</action>
+
+<!-- ContactCompleteAction -->
+		<action name="ContactCompleteAction"
+			class="com.internousdev.yataberyouhin.action.ContactCompleteAction"
+			method="execute">
+			<result name="success">contactComplete.jsp</result>
+		</action>
+
+	</package>
+</struts>

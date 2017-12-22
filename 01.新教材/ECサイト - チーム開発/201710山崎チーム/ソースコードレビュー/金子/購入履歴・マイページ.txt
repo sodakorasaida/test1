@@ -1,0 +1,3 @@
+購入履歴機能：ItemHistoryAction,ItemHistoryDAO,ItemHistoryDTO
+購入履歴一覧削除機能：ItemHistoryDeleteAction
+マイページ機能 :GoMyPageAction,GoMyPageDAO,GoMyPageDTO

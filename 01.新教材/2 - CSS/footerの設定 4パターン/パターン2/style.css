@@ -1,0 +1,112 @@
+
+.logo{
+	positon:absolute;
+	top:0px;
+	left:10px;
+	}
+
+
+
+/* ヘッダー部分　ここから　 */
+
+header{background-color:black;
+width:100%;
+height:50px;
+line-height:50px;
+}
+
+header li{float:left;
+list-style:none;
+padding-left:20px;
+padding-right:40px;
+color:white;
+}
+
+/* ヘッダー部分　ここまで　 */
+
+
+
+
+
+/* メイン部分　ここから　 */
+
+.main-box{clear:left;
+width:100%;
+	}
+
+.main-box h1{
+margin-top:20px;
+border-left:5px solid black;
+border-bottom:2px solid black;
+padding-left:10px;  
+}
+
+/* メイン部分　ここまで　 */
+
+
+
+
+
+/* 左サイド　ここから　 */
+.leftside{
+float:left;
+width:900px;
+margin-bottom:30px;
+}
+
+
+/* 左サイド　ここまで　 */
+	
+
+
+
+
+/* 右サイドバー　ここから　 */
+
+
+.rightside{float:left;
+margin-left:20px;
+margin-top:10px;
+width:300px;
+	}
+
+.rightside h3{
+	border-bottom:2px dotted gray;
+	}
+
+.rightside ul{
+	padding-left:5px;
+	}
+
+.rightside li{
+	list-style:none;
+     padding-left:10px;
+	}
+
+/* 右サイドバー　ここまで　 */
+
+
+
+
+
+
+
+
+
+	
+	
+/* フッター　ここまで　 */
+	
+
+
+footer{clear:left;
+width: 100%;
+height: 60px;
+background-color:black;
+color:white;
+text-align:center;
+line-height:60px;
+	   }
+
+/* フッター　ここまで　 */
+	
